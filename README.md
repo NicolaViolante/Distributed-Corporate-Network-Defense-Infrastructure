@@ -1,4 +1,4 @@
-# NSD Project
+# Distributed Corporate Network Defense Infrastructure
 
 <p align="left">
   <img src="https://img.shields.io/badge/GNS3-00B2E2?style=for-the-badge&logo=GNS3&logoColor=white" />
