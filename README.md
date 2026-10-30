@@ -1,5 +1,17 @@
 # NSD Project
 
+<p align="left">
+  <img src="https://img.shields.io/badge/GNS3-00B2E2?style=for-the-badge&logo=GNS3&logoColor=white" />
+  <img src="https://img.shields.io/badge/FRRouting-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=OpenVPN&logoColor=white" />
+  <img src="https://img.shields.io/badge/OSPF%20&%20BGP-4B0082?style=for-the-badge&logo=routing&logoColor=white" />
+  <img src="https://img.shields.io/badge/eBPF%20%2F%20XDP-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/AppArmor-FFD13B?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=GNUBash&logoColor=white" />
+  <img src="https://img.shields.io/badge/FreeRADIUS-000080?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
 This repository contains the final project for the **Network and System Defence** course (A.Y. 2025/2026). The project implements a secure, distributed corporate network infrastructure combining dynamic routing, VPN overlays, Mandatory Access Control, and a custom eBPF-based data plane security enforcement.
 
 To ensure a reproducible and fully portable deployment, the entire infrastructure is automated via a suite of Bash scripts, dynamically resolving GNS3 nodes and completely avoiding hardcoded container IDs or rigid interface mappings.
@@ -1149,3 +1161,6 @@ sleep 2
 
 echo "Complete deploy finished"
 ```
+
+---
+*Developed by Nicola Violante as an academic project at the Department of Computer Engineering, University of Rome Tor Vergata.*
